@@ -1,2 +1,2 @@
-# wind
+# wind 💨
 an ordinary window manager
