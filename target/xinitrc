@@ -1,5 +1,0 @@
-#!/bin/sh
-
-sleep 1 && xeyes &
-sleep 2 && st &
-exec ./wind
