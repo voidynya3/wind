@@ -1,7 +1,7 @@
 X11 = `pkg-config --libs --cflags x11`
 
 MAIN = wind.c
-FINAL = target/wind
+FINAL = wind
 
 CONFIG_DEF = config.def.h
 CONFIG = config.h
