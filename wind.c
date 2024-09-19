@@ -9,7 +9,6 @@
 
 
 #include <stdio.h>
-#define _OPEN_SYS_ITOA_EXT
 #include <stdlib.h>
 #include <X11/cursorfont.h>
 #include <X11/X.h>

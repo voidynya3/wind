@@ -35,7 +35,8 @@
 *.i*86
 *.x86_64
 *.hex
-target/
+wind
+wind.sh
 
 # Debug files
 *.dSYM/
@@ -54,4 +55,4 @@ dkms.conf
 
 # Configuration files
 .vscode/
-config.h
+.xinitrc
