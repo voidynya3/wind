@@ -1,6 +1,13 @@
-X11_DEP = `pkg-config --libs x11` `pkg-config --cflags x11`
+X11 = `pkg-config --libs --cflags x11`
 
-SOURCE = src/main.c
+MAIN = wind.c
 FINAL = target/wind
 
-CFLAGS = ${SOURCE} -o ${FINAL} ${X11_DEP}
+CONFIG_DEF = config.def.h
+CONFIG = config.h
+
+CFLAGS = -std=c99 -pedantic -Werror
+
+VERSION = "0.1"
+GIT_SOURCE = "github.com/voidynya3/wind"
+DEFINES = -D'WIND_VERSION=${VERSION}' -D'WIND_GIT_SOURCE=${GIT_SOURCE}'
